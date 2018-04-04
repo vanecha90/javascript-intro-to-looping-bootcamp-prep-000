@@ -6,9 +6,8 @@ function forLoop(array){
 }
 
 function whileLoop(n){
-  let nu= 10;
-  while ([nu > 0]){
-    console.log(-- nu)
+  while (n > 0){
+    console.log(-- n)
     return "done"
   }
 }
